@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagens/retangulo_fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Teorema de Pitágoras</title>
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Calculadora de Pitágoras</h1>
+        </header>
+    </section>
+    <article>
+        <main>
+                <h2>Explicação para o filósofo</h2>
+                <p>
+                Primeiramente essa teoria é extremamente importante para a matemática, influenciando diversos resultados matemáticos. E para aplicação de seu teorema, é utilizado algumas nomenclaturas, como o maior lado do triângulo que é sempre oposto ao maior ângulo, de 90°.
+                Esse nomeado de hipotenusa, já os demais são os catetos. O qual um deles oposto a hipotenusa sendo o cateto oposto e o outro cateto adjacente.
+                </p>
+            <section>
+                <h2>Calculadora</h2>
+                <img src="imagens/retangulo.png" alt="triângulo retangulo">
+                <p>Coloque abaixo dois lados do triângulo para descobrir o outro: (Deixe valor em branco em que quer descobrir)</p>
+                <p class="lado">a - Cateto oposto: <input type="number" id="cateto_op"></p>
+                <p class="lado">b - Cateto adjacente: <input type="number" id="cateto_adj"></p>
+                <p class="lado">c - hipotenusa: <input type="number"  id="hipotenusa"></p>
+                <input type="submit" onclick="encontrarValores()" value="Resultado" id="resultado">
+                <p id="valor"></span></p>
+            </section>
+            <p><cite>" Escolha sempre o caminho que pareça o melhor, mesmo que seja o mais difícil; o hábito brevemente o tornará fácil e agradável."</cite> - Pitágoras</p>
+            <p>Isso é uma frase sua filósofo, então para que pegar o caminho mais facil e desistir? Continue para que o caminho se torne melhor!</p>
+        </main>
+    </article>
+    <section>
+        <footer>
+            <p>Site criado por <i><a href="https://github.com/jcdfilho" target="_blank">juliofilho</a></i> para o filósofo Pitágoras</p>
+        </footer>
+    </section>
+</body>
+</html>

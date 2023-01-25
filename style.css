@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #D99441;
+    --cor1: #D9863D;
+    --cor2: #D96A29;
+    --cor3: #A6401B;
+    --cor4: #400D01;
+
+    --fonte-destaque: Verdana, Geneva, Tahoma, sans-serif;
+    --font-comum: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--cor1);
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+p {
+    font: normal normal 16px var(--font-comum);
+    padding: 10px;
+    text-indent: 20px;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 1px var(--cor4);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3),var(--cor2), var(--cor1));
+    margin: auto;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 1px black;
+}
+
+h1{
+    font: normal bolder 30px var(--fonte-destaque);
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+
+main {
+    background-color: var(--cor0);
+    border-radius: 15px;
+}
+
+main > h2{
+    font: normal bolder 20px var(--fonte-destaque);
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+}
+
+main > section {
+    border-radius: 15px;
+    box-shadow: 0px 1px 1px 1px var(--cor3);
+    padding: 10px;
+}
+
+main > section > h2 {
+    font: normal bolder 20px var(--fonte-destaque);
+    padding: 15px;
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+}
+
+main > section > img {
+    max-width: 250px;
+    display: block;
+    margin: auto;
+}
+
+p.lado {
+    margin: 0px;
+    text-shadow: 0px 1px 1px black;
+}
+
+p#resultado {
+    color: var(--cor4);
+    text-shadow: 0px 1px 1px black;
+}
+
+input{
+    border: 7px solid var(--cor0);
+    width: 40px;
+    height: 18px;
+    font-size: 17px;
+    text-align: center;
+}
+
+input#resultado {
+    color: var(--cor4);
+    background-color: var(--cor0);
+    border: 3px solid var(--cor4);
+    width: 100px;
+    height: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+cite {
+    text-shadow: 1px 1px 1px black;
+}
+
+footer > p{
+    background-image: linear-gradient(to top, var(--cor3),var(--cor2));
+    color: var(--cor4);
+    font-size: 15px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer > p:hover{
+    color: black;
+}
